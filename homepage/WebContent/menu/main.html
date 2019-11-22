@@ -1,0 +1,294 @@
+ <!DOCTYPE html>
+
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="reset.css">
+<style type="text/css">
+	.clearfix { 
+		content: ''; 
+		dispaly: block; 
+		clear: both 
+	}
+	#header{
+		background-color: skyblue;
+		width: 100%;
+	}
+
+	.headerUl li{
+		display: inline-block;
+		padding: 30px 30px;
+	}
+	.headerUl li a{
+		color : #ffffff;
+	}
+	.headerUl li a:hover{
+		color: yellow;
+		text-decoration: none;
+	}
+	.headerLi4{
+		float: right;
+		margin-left: 30px;
+		
+	}
+	.headerLi5{
+		float:right;
+	}
+	.container{
+		width : 100%;
+		background-image: url(../menu/images/bak.jpg);
+		background-repeat : no-repeat;
+		background-size : cover;
+	}
+	.wrapper{
+		width: 1200px;
+		margin : 0 auto;
+	}
+	.section1{
+		height: 800px;	
+	}
+	.join{
+		width: 50%;
+		display: inline-block;
+		text-align: center;
+		margin-top: 350px;
+	}
+	.join li {
+		list-style: none;
+	}
+	.join img{
+		width: 200px;
+		height: 200px;
+	}
+	.join a {
+		font-size: 30px;
+		color: #000000;
+	}
+	.login{
+		width: 50%;
+		display: inline-block;
+		text-align: center;
+		margin-top: 350px;
+		float: right;
+	}
+	.login li{
+		list-style: none;
+	}
+	.login img{
+		width: 200px;
+		height: 200px;
+	}
+	.login a {
+		font-size: 30px;
+		color: #000000;
+	}
+	.section2{
+		background-color: #ffffff;
+		padding-bottom: 40px;
+	}
+	
+	.listTable{
+		border-bottom: 1px dotted #444444;;
+		height: 700px;
+		width: 100%;
+	}
+	.listTable tr{
+		border-bottom: 1px dotted #444444;;
+	}
+	.listTable th{
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.listTable td{
+		text-align: center;
+		vertical-align: middle;
+	}
+	.footdiv ul{
+		display: inline-block;
+		padding : 30px 0;
+		width: 24%;
+		list-style: none;
+		text-align: center;
+	}
+	.section3{
+		padding: 100px 0;
+	}
+	.footdiv li{
+		padding : 30px 0;
+	}
+	.section3 ul{
+		text-align :center;
+	}
+	.section3img{
+		margin-bottom: 30px;
+	}
+	.impoImg{
+		display: inline-block;
+		border : 1px solid black;
+	}
+	.impoImg img{
+		width: 200px;
+		height: 200px;
+	}
+	.impoName{
+		display: inline-block;
+		margin-top : 20px;
+		padding: 0 80px;
+	}
+	.footer{
+		background-color: skyblue;
+		width: 100%;
+		color : #ffffff;
+	}
+	.footer li:hover {
+		color: yellow;
+ 	}
+</style>
+
+</head>
+<body>
+
+
+<div id="header">
+	<div class="wrapper">
+	<ul class="headerUl clearfix">
+		<li class="headerLi1"><a href="#" class="headerA">HOME</a></li>
+		<li class="headerLi2"><a href="#" class="headerA">메모</a></li>
+		<li class="headerLi3"><a href="#" class="headerA">게시판</a></li>
+		
+		<li class="headerLi4"><a href="#" class="headerA">로그인</a></li>
+		<li class="headerLi5"><a href="#" class="headerA">회원가입</a></li>
+	</ul>
+	</div>
+</div>
+<div class="container">
+	<div class="wrapper"> 
+		<div class="section1 clearfix">
+			<div class="join">
+				<ul>
+					<li><img src="../menu/images/tree.jpg"></li>
+					<li><a href="#">회원가입</a></li>
+				</ul>
+			</div>
+			<div class="login">
+				<ul>
+					<li><img src="../menu/images/tree.jpg"></li>
+					<li><a href="#">로그인</a></li>
+				</ul>
+			</div>
+		</div>
+		</div>
+		<div class="section2">
+		<div class="wrapper">
+			<div class="list">
+				<table class="listTable">
+					<thead>
+						<tr>
+							<th>상품명</th>
+							<th>가격</th>
+							<th>날짜</th>
+							<th>비고</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>2</td>
+							<td>3</td>
+							<td>4</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="section3">
+		<div class="wrapper">
+			<div class="section3img">
+				<ul class="impoUl clearfix">
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+				</ul>
+				<ul class="impoUl clearfix">
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+				</ul>
+			</div>
+			<div class="section3img3">
+				<ul>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+					<li class="impoImg"><img src="../join/storage/member.jpg"></li>
+				</ul>
+				<ul class="impoUl2 clearfix">
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+					<li class="impoName"><span>홍길동</span></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+<footer class="footer">
+		<div class="wrapper">
+			<div class="footdiv">
+				<ul class="footUl1">
+					<li>찾아오시는길</li>
+					<li>고객문의</li>
+					<li>링크</li>
+				</ul>
+				<ul class="footUl2">
+					<li>공지사항</li>
+					<li>이벤트</li>
+					<li>내용</li>
+				</ul>
+				<ul class="footUl3">
+					<li>비고</li>
+					<li>비고</li>
+					<li>비고</li>
+				</ul>
+				<ul class="footUl4">
+					<li>비고</li>
+					<li>비고</li>
+					<li>비고</li>
+				</ul>
+			</div>
+		</div>
+</footer>
+</body>
+</html>
