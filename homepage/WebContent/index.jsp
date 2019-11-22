@@ -27,6 +27,7 @@
 			<p>Ut enim ad menim veniam, quis nostrud exercitation ullamco laboris...</p>
 		</div>
 		<h1>안녕하세요</h1>
+		<h1>안녕하세요</h1>
 	</div>
 </div>
 </body>
